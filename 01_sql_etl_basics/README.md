@@ -9,10 +9,10 @@ SQL 고급 문법과 ETL 기초를 다루는 폴더입니다. 데이터 엔지�
 - dbt 기초
 
 ## 🛠️ 폴더 구조
-- `sql_advanced/`
-- `etl_foundation/`
-- `data_modeling/`
-- `dbt_intro/`
+- `sql_advanced/`    # Window Function, CTE, Indexing, Subquery
+- `etl_foundation/`  # CSV → DB 적재, Pandas Transform, 간단 파이프라인
+- `data_modeling/`   # ERD, 정규화/비정규화
+- `dbt_intro/`       # dbt 기초 및 첫 모델링
 
 ## 🎯 학습 목표
 - SQL 실무 쿼리 능력 확보

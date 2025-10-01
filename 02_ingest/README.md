@@ -1,11 +1,11 @@
 # 02. Data Ingestion
 
-데이터 수집 단계 학습 공간입니다. API, 크롤링, 파일 기반 적재를 다룹니다.
+다양한 소스에서 데이터를 수집하는 방법을 학습합니다.
 
 ## 📌 학습 내용
-- 공공데이터/뉴스 API 수집
+- API 데이터 수집 (공공데이터, 뉴스 API 등)
 - 웹 크롤링 (BeautifulSoup, Selenium)
-- CSV, JSON, Parquet, ORC 파일 → DB/S3 적재
+- 파일 포맷 처리: CSV, JSON, Parquet, ORC → DB/S3
 
 ## 🛠️ 폴더 구조
 - `api_ingest/`
@@ -13,5 +13,5 @@
 - `file_ingest/`
 
 ## 🎯 학습 목표
-- 다양한 데이터 소스 수집 경험
-- 구조화/비구조화 데이터 처리 감각
+- 다양한 형태의 데이터 ingestion 경험
+- 정형/비정형 데이터 처리 능력

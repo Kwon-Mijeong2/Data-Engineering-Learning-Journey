@@ -25,18 +25,15 @@ Python, SQL, ETL, 데이터 파이프라인, 분산처리, 스트리밍, 클라�
 
 > 각 디렉토리별 상세 내용은 내부 README에서 확인할 수 있습니다.
 
-01_sql_etl_basics/ → SQL 고급, ETL 기초, dbt
-02_ingest/ → 데이터 수집 (API, 크롤링, 파일 적재)
-03_sql_database/ → MySQL, PostgreSQL, SQLite, AWS RDS
-04_data_engineering/ → 파이프라인, Airflow, Docker, Spark, Kafka, Flink
-05_cloud/ → AWS, GCP, Azure, 멀티클라우드 비교
-06_infra_ops/ → IaC(Terraform), CI/CD, 모니터링/Observability
-07_visualization_bi/ → BI 툴 (Looker, Quicksight, Tableau, PowerBI)
-08_projects/ → 프로젝트 모음 (배치, 스트리밍, DWH, 최종 프로젝트)
-10_docs/ → 문서, 로드맵, 면접 대비, 용어 정리
-
-yaml
-코드 복사
+- 01_sql_etl_basics/ → SQL 고급, ETL 기초, dbt
+- 02_ingest/ → 데이터 수집 (API, 크롤링, 파일 적재)
+- 03_sql_database/ → MySQL, PostgreSQL, SQLite, AWS RDS
+- 04_data_engineering/ → 파이프라인, Airflow, Docker, Spark, Kafka, Flink
+- 05_cloud/ → AWS, GCP, Azure, 멀티클라우드 비교
+- 06_infra_ops/ → IaC(Terraform), CI/CD, 모니터링/Observability
+- 07_visualization_bi/ → BI 툴 (Looker, Quicksight, Tableau, PowerBI)
+- 08_projects/ → 프로젝트 모음 (배치, 스트리밍, DWH, 최종 프로젝트)
+- 10_docs/ → 문서, 로드맵, 면접 대비, 용어 정리
 
 ---
 

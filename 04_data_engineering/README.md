@@ -12,14 +12,14 @@
 - 보안/거버넌스
 
 ## 🛠️ 폴더 구조
-- `data_pipeline/`
-- `orchestration_airflow/`
-- `container_docker/`
-- `distributed_spark/`
-- `streaming_kafka/`
-- `streaming_flink/`
-- `data_quality/`
-- `governance_security/`
+- `data_pipeline/`# Pandas/dbt 기반 파이프라인 설계
+- `orchestration_airflow/`# Airflow DAG, 스케줄링, XCom
+- `container_docker/`# Docker, Docker Compose
+- `distributed_spark/`# Spark (CSV/Parquet 처리, SQL 비교)
+- `streaming_kafka/`# Kafka Producer/Consumer + Connect + Schema Registry
+- `streaming_flink/` # Flink 기초
+- `data_quality/`# Pytest, Great Expectations (기초+고급)
+- `governance_security/`# IAM, VPC, 권한 관리, GDPR, PII
 
 ## 🎯 학습 목표
 - 데이터 파이프라인 전주기 경험

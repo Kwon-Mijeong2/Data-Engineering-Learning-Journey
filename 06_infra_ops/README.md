@@ -9,11 +9,11 @@
 - Observability: 알림 시스템, 데이터 품질 모니터링
 
 ## 🛠️ 폴더 구조
-- `iac_terraform/`
-- `cicd_github_actions/`
-- `cicd_jenkins/`
-- `logging_monitoring/`
-- `observability/`
+- `iac_terraform/` # Terraform, AWS CDK
+- `cicd_github_actions/`# GitHub Actions CI/CD
+- `cicd_jenkins/`# Jenkins (추가 학습용)
+- `logging_monitoring/` # Prometheus, Grafana, CloudWatch
+- `observability/`# 알림 시스템, 데이터 품질 모니터링
 
 ## 🎯 학습 목표
 - 자동화된 인프라 관리

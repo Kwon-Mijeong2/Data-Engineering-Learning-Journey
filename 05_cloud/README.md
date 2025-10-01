@@ -6,7 +6,7 @@ AWS, GCP, Azure 등 클라우드 환경에서 데이터 엔지니어링을 학�
 - AWS: EC2, S3, IAM, VPC, Glue, Lambda, Step Functions
 - GCP: BigQuery, Dataflow
 - Azure: Functions, RBAC
-- 멀티클라우드 비교
+- 멀티클라우드 비교 및 활용 사례
 
 ## 🛠️ 폴더 구조
 - `aws/`

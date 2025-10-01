@@ -1,4 +1,4 @@
-# 10. Documentation
+# 8. Documentation
 
 학습 기록, 면접 준비, 용어 정리를 모아둡니다.
 

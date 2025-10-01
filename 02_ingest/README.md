@@ -8,9 +8,9 @@
 - 파일 포맷 처리: CSV, JSON, Parquet, ORC → DB/S3
 
 ## 🛠️ 폴더 구조
-- `api_ingest/`
-- `web_scraping/`
-- `file_ingest/`
+- `api_ingest/`    # 공공데이터, 뉴스 API → DB/S3
+- `web_scraping/`  # BeautifulSoup, Selenium 크롤링
+- `file_ingest/`   # CSV, JSON, Parquet, ORC 성능 비교
 
 ## 🎯 학습 목표
 - 다양한 형태의 데이터 ingestion 경험

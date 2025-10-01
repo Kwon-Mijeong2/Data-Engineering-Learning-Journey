@@ -5,14 +5,14 @@
 ## 📌 학습 내용
 - MySQL: 중급~고급 SQL
 - PostgreSQL: CTE, JSONB, 파티셔닝
-- SQLite: 경량 DB 실습
+- nosql : DynamoDB, Cassandra, MongoDB 기초
 - AWS RDS: 클라우드 환경 DB 운영
 
 ## 🛠️ 폴더 구조
-- `mysql/`
-- `postgresql/`
-- `sqlite/`
-- `aws_rds/`
+- `mysql/`      # MySQL 심화
+- `postgresql/` # PostgreSQL (CTE, JSONB, 파티셔닝)
+- `nosql`       # DynamoDB, Cassandra, MongoDB 기초
+- `aws_rds/`    # AWS RDS 세팅 & 운영
 
 ## 🎯 학습 목표
 - 다양한 DB 엔진 사용 경험

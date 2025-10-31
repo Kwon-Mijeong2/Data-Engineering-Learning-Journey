@@ -53,7 +53,7 @@ Python, SQL, ETL, 데이터 파이프라인, 분산처리, 스트리밍, 클라�
 
 | 기간 | 프로젝트 | 설명 |
 |------|-----------|------|
-| 2025.09 | [CSV 파이프라인](./08_projects/2025_09_kaggle_csv_pipeline) | Kaggle CSV → Pandas → SQLite/MySQL |
+| 2025.09 | [CSV 파이프라인](Mini_projects/2025_09_kaggle_csv_pipeline/) | Kaggle CSV → Pandas → SQLite/MySQL |
 | 2025.10 | [API → dbt 모델링](./08_projects/2025_10_api_to_dbt) | API 수집 → MySQL/Postgres → dbt 모델링 |
 | 2025.12 | [배치 ETL 파이프라인](./08_projects/2025_12_batch_etl) | Airflow + dbt + GE → BI 시각화 |
 | 2026.01 | [Spark 성능 비교](./08_projects/2026_01_spark_perf) | Spark vs Pandas 대용량 처리 성능 분석 |

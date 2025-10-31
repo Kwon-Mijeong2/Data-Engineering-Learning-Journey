@@ -49,26 +49,12 @@ Python, SQL, ETL, 데이터 파이프라인, 분산처리, 스트리밍, 클라�
 
 ---
 
-## 📊 주요 프로젝트
-
-| 기간 | 프로젝트 | 설명 |
-|------|-----------|------|
-| 2025.09 | [CSV 파이프라인](Mini_projects/2025_09_kaggle_csv_pipeline/) | Kaggle CSV → Pandas → SQLite/MySQL |
-| 2025.10 | [API → dbt 모델링](./08_projects/2025_10_api_to_dbt) | API 수집 → MySQL/Postgres → dbt 모델링 |
-| 2025.12 | [배치 ETL 파이프라인](./08_projects/2025_12_batch_etl) | Airflow + dbt + GE → BI 시각화 |
-| 2026.01 | [Spark 성능 비교](./08_projects/2026_01_spark_perf) | Spark vs Pandas 대용량 처리 성능 분석 |
-| 2026.02 | [스트리밍 파이프라인](./08_projects/2026_02_streaming_pipeline) | Kafka/SQS → Streaming → DB 적재 |
-| 2026.03 | [DWH & 모니터링](./08_projects/2026_03_dw_monitoring) | Redshift/BigQuery + Grafana |
-| 2026.05 | [최종 프로젝트](./08_projects/2026_05_final_project) | 실시간 뉴스 트렌드 분석 (Kafka → Spark Streaming → DynamoDB → Grafana) |
-
----
-
 ## 📝 문서 & 면접 대비
 
-- [roadmap.md](./10_docs/roadmap.md) : 학습 로드맵 정리  
-- [interview_preparation.md](./10_docs/interview_preparation.md) : 면접 대비 Q&A 모음  
-- [terminology.md](./10_docs/terminology.md) : 데이터 엔지니어링 용어 정리  
-- [references.md](./10_docs/references.md) : 참고 자료 (Docs, 블로그, 논문 등)  
+- [roadmap.md](./08_docs/roadmap.md) : 학습 로드맵 정리  
+- [interview_preparation.md](./08_docs/interview_preparation.md) : 면접 대비 Q&A 모음  
+- [terminology.md](./08_docs/terminology.md) : 데이터 엔지니어링 용어 정리  
+- [references.md](./08_docs/references.md) : 참고 자료 (Docs, 블로그, 논문 등)  
 
 ---
 

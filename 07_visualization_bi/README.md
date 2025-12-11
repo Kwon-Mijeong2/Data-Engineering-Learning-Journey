@@ -1,4 +1,4 @@
-# 07. Visualization & BI
+# Visualization & BI
 
 데이터 시각화 및 BI 도구 학습을 정리합니다.
 

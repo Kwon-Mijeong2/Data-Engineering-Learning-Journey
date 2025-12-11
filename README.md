@@ -1,152 +1,166 @@
 # 🚀 Data Engineering Learning Journey (2025.12 ~ 2026.05)
 
-🌟 Data Engineering Learning Journey (2025.12 ~ 2026.05)
+나의 데이터 엔지니어링 학습 기록을 정리하고 성장 과정을 추적하기 위한 레포지토리입니다.
+Airflow, Docker, SQL, Python, Spark, Data Modeling 등 데이터 엔지니어에게 필요한 핵심 기술을 단계적으로 정리합니다.
 
-데이터 엔지니어 취업을 목표로
-6개월 동안 학습한 모든 과정을 아카이브하는 리포지토리입니다.
+🚀 목표
 
-📚 Table of Contents
+데이터 엔지니어로 취업할 수 있을 정도의 기술 역량 확보
 
-개요
+실무형 파이프라인 구축 경험
 
-전체 로드맵
+기술 블로그(티스토리)와 GitHub 포트폴리오 강화
 
-기술 스택
-
-레포 구조
-
-폴더별 구성
-
-학습 목표
-
-추천 대상
-
-Contact
-
-📘 개요
-
-이 리포지토리는
-2025년 12월부터 2026년 5월까지 데이터 엔지니어링 학습 여정을 기록한 프로젝트입니다.
-
-Airflow, AWS, Lakehouse, Warehouse, ETL, Data Quality 등
-실무에 필요한 기술들을 집중적으로 정리합니다.
-
-🗺️ 전체 로드맵
-기간	주제	주요 기술
-2025.12	Data Engineering 기본	Python, SQL, Docker, Git
-2026.01	Airflow 핵심	DAG, Operator, XCom, Scheduler
-2026.02	Python 기반 파이프라인	ETL 구조, Logging, Testing
-2026.03	Lakehouse & Warehouse	Iceberg, Delta, Redshift, BigQuery, Great Expectations
-2026.04	AWS Cloud ETL	S3, Glue, Athena, Lambda
-2026.05	실전 포트폴리오	End-to-End 파이프라인 구축
-🧩 기술 스택
-🔹 Programming & Tools
-
-Python
-
-SQL
-
-Docker
-
-Git / GitHub
-
-Bash
-
-🔹 Workflow Orchestration
-
-Apache Airflow
-
-DAG, TaskFlow API
-
-XCom
-
-Sensors & Hooks
-
-Airflow + AWS 연동
-
-🔹 Data Lakehouse
-
-Apache Iceberg
-
-Delta Lake
-
-S3 기반 Lakehouse 구축
-
-🔹 Data Warehouse
-
-Amazon Redshift
-
-Google BigQuery
-
-Partition / Clustering
-
-🔹 Data Quality
-
-Great Expectations
-
-🔹 Cloud ETL
-
-AWS S3
-
-AWS Glue
-
-AWS Athena
-
-AWS Lambda
-
-🗂️ 레포 구조
+🗂️ Repository Structure
 data-engineering-learning-journey/
 │
-├── README.md
-│
-├── 2025-12_foundation/
+├── airflow/
 │   ├── notes/
-│   ├── exercises/
-│   └── mini-projects/
-│
-├── 2026-01_airflow-core/
 │   ├── dags/
+│   └── projects/
+│
+├── docker/
 │   ├── notes/
-│   ├── troubleshooting/
+│   └── projects/
+│
+├── sql/
+│   ├── notes/
+│   └── exercises/
+│
+├── python/
+│   ├── basics/
+│   ├── data-processing/
+│   └── projects/
+│
+├── data-modeling/
+│   ├── theory/
+│   └── case-studies/
+│
+├── spark/
+│   ├── notes/
+│   └── examples/
+│
+├── projects/
 │   └── mini-projects/
 │
-├── 2026-02_data-pipeline-python/
-│   ├── python-advanced/
-│   ├── data-cleaning/
-│   ├── logging-testing/
-│   └── mini-projects/
-│
-├── 2026-03_lakehouse-warehouse/
-│   ├── iceberg-delta/
-│   ├── redshift-bigquery/
-│   ├── data-quality/
-│   └── docs/
-│
-├── 2026-04_cloud-etl/
-│   ├── aws-core/
-│   ├── glue-athena/
-│   ├── event-driven/
-│   └── mini-projects/
-│
-└── 2026-05_portfolio/
-    ├── final-pipeline/
-    ├── architecture-diagrams/
-    ├── performance/
-    └── interview-prep/
+└── README.md
 
-📁 폴더별 구성
-📂 notes/
+📅 2025.12 ~ 2026.05 학습 로드맵
+📌 12월 — Foundations
 
-학습 개념 요약 및 정리
+Python 문법 재정리
 
-📂 exercises / mini-projects/
+Git & GitHub 숙련
 
-짧은 실습 코드 모음
+Docker 기본기
 
-📂 troubleshooting/
+SQL Essential
 
-에러 상황과 해결 방법 기록
+📌 1월 — Airflow 집중 학습
 
-📂 docs/
+DAG 구조 이해
 
-설계서, 아키텍처 문서, 포트폴리오용 문서
+Operators 사용
+
+스케줄러, Executor 이해
+
+Docker Compose로 로컬 환경 구성
+
+실습형 DAG 5개 이상 작성
+
+📌 2월 — Data Pipeline 기본기
+
+ETL 파이프라인 설계
+
+DB → S3 → DW 흐름 학습
+
+데이터 품질(Data Quality) 개념
+
+SQL 중급 (윈도우 함수 등)
+
+📌 3월 — Spark & Distributed Processing
+
+Spark 구조 이해
+
+Transformation / Action 실습
+
+PySpark 데이터 처리
+
+간단한 배치 처리 프로젝트 진행
+
+📌 4월 — Data Modeling + 실전 프로젝트
+
+스타 스키마, Snowflake 모델링
+
+OLTP vs OLAP
+
+Kimball 메소드 기반 분석 모델링
+
+미니 프로젝트 2개
+
+📌 5월 — 배포 & 실전 포트폴리오
+
+Airflow 기반 배치 파이프라인 완성
+
+Spark + Airflow 통합
+
+Docker 기반 파이프라인 배포
+
+포트폴리오 문서화
+
+티스토리 기술 블로그에 총 10개 이상 포스팅
+
+🧰 Skills Covered
+
+Python (Data Processing)
+
+Docker & Docker Compose
+
+SQL (Window Functions, Optimization)
+
+Airflow DAG 개발
+
+Spark (PySpark)
+
+Data Modeling
+
+ETL 파이프라인 설계
+
+Batch Pipeline 구축 경험
+
+🧑‍💻 Mini Projects (예정)
+
+Airflow + Python ETL Pipeline
+
+Spark 기반 데이터 정제 파이프라인
+
+Docker 기반 데이터 처리 환경 구성
+
+데이터 모델링 사례 연구
+
+SQL 분석 시나리오 실습
+
+✍️ Blog Posts (티스토리 연동)
+
+이론 정리
+
+실습 코드 정리
+
+트러블슈팅 기록
+
+프로젝트 회고
+
+⭐ 목표 포트폴리오 결과물
+
+Airflow + Spark + Docker를 이용한 실제 동작하는 데이터 파이프라인
+
+정리된 SQL 분석 문서
+
+GitHub + Tistory 연계된 문서화
+
+5~7개의 실전 프로젝트 기록
+
+🙌 Contribution
+
+이 레포는 나의 개인 학습 기록용이며, PR은 받지 않습니다.
+(혹시라도 미래에 공개 전환 시 정책이 변경될 수 있습니다.)

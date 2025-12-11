@@ -1,7 +1,7 @@
 # 2025-12_foundation
 
-Python/SQL 기본기 + Airflow/Docker 준비
-
+12월 안에 Airflow + dbt + RDS + S3 기반의 실무형 배치 파이프라인을 직접 구축하고 포트폴리오 프로젝트 완성하기.
+```
 ├── README.md
 ├── week1_airflow/
 │ ├── dags/
@@ -28,8 +28,6 @@ Python/SQL 기본기 + Airflow/Docker 준비
 ├── architecture.png
 ├── README.md
 └── screenshots/
-
-12월 안에 Airflow + dbt + RDS + S3 기반의 실무형 배치 파이프라인을 직접 구축하고 포트폴리오 프로젝트 완성하기.
 ---
 
 

@@ -33,6 +33,49 @@ Python/SQL 기본기 + Airflow/Docker 준비
 ---
 
 
+# 📅 전체 커리큘럼
+
+
+## **1주차 — Airflow 기초**
+- Airflow 설치(Docker)
+- DAG 작성(PythonOperator, BashOperator)
+- schedule_interval · start_date · retry
+- XCom
+- Variables / Connections
+
+
+🎯 **성과**: DAG 3개 이상 작성 + ETL 미니 파이프라인 완성
+
+
+---
+
+
+## **2주차 — dbt 기초**
+- staging → mart 모델 구성
+- seed / source / ref
+- 테스트/문서화
+- Jinja
+
+
+🎯 **성과**: marts 2~3개 구성 + docs 페이지 생성
+
+
+---
+
+
+## **3주차 — RDS + S3 + Parquet**
+- RDS(PostgreSQL) 생성 및 연동
+- S3 업로드·다운로드
+- CSV → Parquet 변환
+- 간단한 성능 비교
+
+
+🎯 **성과**: RDS-S3-Parquet 연동 이해
+
+
+---
+
+
 ## **4주차 — 배치 파이프라인 프로젝트**
 - API → S3 → RDS → dbt mart 전체 DAG
 - GitHub Actions CI

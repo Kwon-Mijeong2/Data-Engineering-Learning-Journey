@@ -1,1 +1,116 @@
+# 2025-12_foundation
 
+Python/SQL 기본기 + Airflow/Docker 준비
+
+├── README.md
+├── week1_airflow/
+│ ├── dags/
+│ ├── docker-compose.yml
+│ ├── notes.md
+│ └── exercises/
+├── week2_dbt/
+│ ├── dbt_project/
+│ ├── seeds/
+│ ├── models/
+│ ├── tests/
+│ └── notes.md
+├── week3_rds_s3_parquet/
+│ ├── s3_scripts/
+│ ├── parquet_examples/
+│ ├── sql/
+│ └── notes.md
+├── week4_batch_pipeline/
+│ ├── airflow_dags/
+│ ├── dbt/
+│ ├── ci/
+│ └── notes.md
+└── portfolio/
+├── architecture.png
+├── README.md
+└── screenshots/
+
+12월 안에 Airflow + dbt + RDS + S3 기반의 실무형 배치 파이프라인을 직접 구축하고 포트폴리오 프로젝트 완성하기.
+---
+
+
+## **4주차 — 배치 파이프라인 프로젝트**
+- API → S3 → RDS → dbt mart 전체 DAG
+- GitHub Actions CI
+- 문서화 + README
+
+
+🎯 **최종 성과**: 실무형 포트폴리오 프로젝트 1개 완성
+
+
+---
+
+
+# 📁 폴더 구조 설명
+
+
+| 폴더 | 설명 |
+|------|------|
+| week1_airflow | Airflow 설치, 기본 DAG, XCom, Variables, 연습 DAG 포함 |
+| week2_dbt | dbt 프로젝트 전체 구조 및 모델링 파일 |
+| week3_rds_s3_parquet | RDS, S3, Parquet 관련 실습 코드/스크립트 |
+| week4_batch_pipeline | 최종 파이프라인 DAG + CI 구성 |
+| portfolio | 최종 포트폴리오 문서 및 이미지 |
+
+
+---
+
+
+# 🚀 실행 방법
+
+
+## Airflow 시작하기
+```
+cd week1_airflow
+docker-compose up -d
+```
+→ http://localhost:8080 접속
+
+
+---
+
+
+## dbt 실행
+```
+cd week2_dbt/dbt_project
+~/.dbt/profiles.yml 설정 후
+
+
+dbt run
+dbt test
+dbt docs generate
+dbt docs serve
+```
+
+
+---
+
+
+## S3 업로드 테스트
+```
+python week3_rds_s3_parquet/s3_scripts/upload.py
+```
+
+
+---
+
+
+## 전체 파이프라인 실행(Airflow)
+```
+week4_batch_pipeline/airflow_dags/pipeline_dag.py
+```
+
+
+---
+
+
+# 🏁 최종 결과물
+- Airflow 전체 파이프라인 1개
+- marts 모델 2~3개
+- RDS-S3 연동
+- GitHub Actions CI
+- 포트폴리오 README

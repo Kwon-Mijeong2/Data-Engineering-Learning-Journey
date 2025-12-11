@@ -3,24 +3,6 @@
 데이터 엔지니어 취업을 목표로
 6개월 동안 학습한 모든 과정을 아카이브하는 리포지토리입니다.
 
-📚 목차 (Table of Contents)
-
-개요
-
-전체 로드맵
-
-기술 스택
-
-레포 구조
-
-폴더별 구성
-
-학습 목표
-
-추천 대상
-
-Contact
-
 📘 개요
 
 이 리포지토리는
@@ -37,69 +19,44 @@ Airflow, AWS, Data Lakehouse, Data Warehouse, ETL Pipeline, Data Quality 등
 2026.03	Lakehouse & Warehouse	Iceberg, Delta, Redshift, BigQuery, Great Expectations
 2026.04	AWS 기반 Cloud ETL	S3, Glue, Athena, Lambda, Event-driven ETL
 2026.05	실전 포트폴리오	End-to-End 파이프라인 구축, 성능 개선, 문서화
+
 🧩 기술 스택
 🔹 Programming & Tools
-
 Python
-
 SQL
-
 Git / GitHub
-
 Docker
-
 Bash
 
 🔹 Workflow Orchestration
-
 Apache Airflow
-
 DAG 설계
-
 TaskFlow API
-
 XCom
-
 Sensors & Hooks
-
 Airflow + AWS 연동
 
 🔹 Data Lakehouse
-
 Apache Iceberg
-
 Delta Lake
-
 S3 Lakehouse 구축
-
 Schema Evolution / Time Travel
 
 🔹 Data Warehouse
-
 Amazon Redshift
-
 Google BigQuery
-
 Partition / Clustering
-
 Sort Key / Dist Key
 
 🔹 Data Quality
-
 Great Expectations
-
 Data Validation Suite
-
 Airflow + GE 통합
 
 🔹 Cloud ETL
-
 AWS S3
-
 AWS Glue
-
 AWS Athena
-
 AWS Lambda
 
 🗂️ 레포 구조
@@ -143,30 +100,15 @@ data-engineering-learning-journey/
     └── interview-prep/
 
 📁 폴더별 구성
-📂 notes/
 
+📂 notes/
 학습 개념 정리, 아키텍처 구조, 문제 해결 과정 기록
 
 📂 exercises / mini-projects/
-
 핵심 기술을 짧게 구현하는 실습 코드
 
 📂 troubleshooting/
-
 실습 중 발생한 에러 및 해결 방법 기록
 
 📂 docs/
-
 기술 문서, 포트폴리오용 설계서, 다이어그램
-
-🎯 학습 목표
-
-데이터 엔지니어 실무 진입 수준 확보
-
-Airflow 기반 파이프라인을 설계·운영할 수 있는 역량 구축
-
-AWS + Warehouse + Lakehouse를 이용한 End-to-End 동작 흐름 이해
-
-품질 관리 · 성능 최적화 · 문서화 경험 확보
-
-포트폴리오 2–3개 제작

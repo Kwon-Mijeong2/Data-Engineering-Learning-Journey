@@ -1,4 +1,4 @@
-# 2025-12_foundation
+# 2026-01_airflow-core
 
 Spark로 대용량 로그를 처리하고, Parquet 최적화 + Airflow 자동화 + RDS 적재까지 이어지는 실무형 파이프라인 완성.
 ```

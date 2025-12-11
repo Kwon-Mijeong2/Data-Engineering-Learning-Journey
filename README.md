@@ -29,7 +29,6 @@ Python, SQL, Docker, Airflow, Spark, ETL, 데이터 모델링 등
 - 2026-03_lakehouse-warehouse/ → Lakehouse + Warehouse
 - 2026-04_cloud-etl/ → AWS 기반 ETL
 - 2026-05_portfolio/ → 최종 프로젝트
-- docs/ → 문서, 로드맵, 면접 대비, 용어 정리
 
 ---
 
@@ -51,12 +50,5 @@ Python, SQL, Docker, Airflow, Spark, ETL, 데이터 모델링 등
 - [troubleshooting/] : 실습 중 발생한 에러 및 해결 방법 기록
 - [docs/] : 기술 문서, 포트폴리오용 설계서, 다이어그램
 - [references/] : 참고 자료 (Docs, 블로그, 논문 등)  
-
----
-
-## 📝 문서 & 면접 대비
- 
-- [interview_preparation.md](./docs/interview_preparation.md) : 면접 대비 Q&A 모음  
-- [terminology.md](./docs/terminology.md) : 데이터 엔지니어링 용어 정리  
 
 ---

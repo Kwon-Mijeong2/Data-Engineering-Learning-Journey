@@ -1,166 +1,62 @@
-# 🚀 Data Engineering Learning Journey (2025.12 ~ 2026.05)
+# 🚀 Data Engineering Learning Journey
 
-나의 데이터 엔지니어링 학습 기록을 정리하고 성장 과정을 추적하기 위한 레포지토리입니다.
-Airflow, Docker, SQL, Python, Spark, Data Modeling 등 데이터 엔지니어에게 필요한 핵심 기술을 단계적으로 정리합니다.
+데이터 엔지니어 신입 취업을 목표로 진행한 2025.12 ~ 2026.05 학습 로드맵 & 실습/프로젝트 기록입니다.
+Python, SQL, Docker, Airflow, Spark, ETL, 데이터 모델링 등
+데이터 엔지니어링 핵심 기술들을 단계적으로 학습하고 기록합니다. 
 
-🚀 목표
+---
 
-데이터 엔지니어로 취업할 수 있을 정도의 기술 역량 확보
+## 📌 학습 로드맵 (2025.10 ~ 2026.05)
 
-실무형 파이프라인 구축 경험
+| 기간 | 학습 내용 |
+|------|-----------|
+| 2025.12 | Data Engineering 기본기, Python 기초, SQL, Bash, Git, Docker |
+| 2026.01 | Airflow 핵심 이해, DAG, Operator, Scheduler, Hooks, Sensors |
+| 2026.02 | Python 기반 데이터 파이프라인(모듈 구조, Logging, Testing, Exception, ETL 패턴) |
+| 2026.03 | Lakehouse & Warehouse(Iceberg, Delta, Redshift, BigQuery, Great Expectations) |
+| 2026.04 | AWS 기반 Cloud ETL(S3, Glue, Athena, Lambda, Event-driven ETL) |
+| 2026.05 | End-to-End 파이프라인 구축, 성능 개선, 문서화 |
 
-기술 블로그(티스토리)와 GitHub 포트폴리오 강화
+---
 
-🗂️ Repository Structure
-data-engineering-learning-journey/
-│
-├── airflow/
-│   ├── notes/
-│   ├── dags/
-│   └── projects/
-│
-├── docker/
-│   ├── notes/
-│   └── projects/
-│
-├── sql/
-│   ├── notes/
-│   └── exercises/
-│
-├── python/
-│   ├── basics/
-│   ├── data-processing/
-│   └── projects/
-│
-├── data-modeling/
-│   ├── theory/
-│   └── case-studies/
-│
-├── spark/
-│   ├── notes/
-│   └── examples/
-│
-├── projects/
-│   └── mini-projects/
-│
-└── README.md
+## 📂 Repository Structure
 
-📅 2025.12 ~ 2026.05 학습 로드맵
-📌 12월 — Foundations
+> 각 디렉토리별 상세 내용은 내부 README에서 확인할 수 있습니다.
 
-Python 문법 재정리
+- 2025-12_foundation/ → 데이터 엔지니어 기본기
+- 2026-01_airflow-core/ → Airflow 핵심 학습
+- 2026-02_data-pipeline-python/ → Python 기반 ETL
+- 2026-03_lakehouse-warehouse/ → Lakehouse + Warehouse
+- 2026-04_cloud-etl/ → AWS 기반 ETL
+- 2026-05_portfolio/ → 최종 프로젝트
+- docs/ → 문서, 로드맵, 면접 대비, 용어 정리
 
-Git & GitHub 숙련
+---
 
-Docker 기본기
+## 📊 주요 프로젝트
 
-SQL Essential
+| 기간 | 프로젝트 | 설명 |
+|------|-----------|------|
+| 2026.01 | [Spark 성능 비교](./08_projects/2026_01_spark_perf) | Spark vs Pandas 대용량 처리 성능 분석 |
+| 2026.02 | [스트리밍 파이프라인](./08_projects/2026_02_streaming_pipeline) | Kafka/SQS → Streaming → DB 적재 |
+| 2026.03 | [DWH & 모니터링](./08_projects/2026_03_dw_monitoring) | Redshift/BigQuery + Grafana |
+| 2026.05 | [최종 프로젝트](./08_projects/2026_05_final_project) | 실시간 뉴스 트렌드 분석 (Kafka → Spark Streaming → DynamoDB → Grafana) |
 
-📌 1월 — Airflow 집중 학습
+---
 
-DAG 구조 이해
+## 📁 폴더별 구성
 
-Operators 사용
+- [notes/] : 학습 개념 정리, 아키텍처 구조, 문제 해결 과정 기록
+- [exercises / mini-projects/] : 핵심 기술을 짧게 구현하는 실습 코드
+- [troubleshooting/] : 실습 중 발생한 에러 및 해결 방법 기록
+- [docs/] : 기술 문서, 포트폴리오용 설계서, 다이어그램
+- [references/] : 참고 자료 (Docs, 블로그, 논문 등)  
 
-스케줄러, Executor 이해
+---
 
-Docker Compose로 로컬 환경 구성
+## 📝 문서 & 면접 대비
+ 
+- [interview_preparation.md](./docs/interview_preparation.md) : 면접 대비 Q&A 모음  
+- [terminology.md](./docs/terminology.md) : 데이터 엔지니어링 용어 정리  
 
-실습형 DAG 5개 이상 작성
-
-📌 2월 — Data Pipeline 기본기
-
-ETL 파이프라인 설계
-
-DB → S3 → DW 흐름 학습
-
-데이터 품질(Data Quality) 개념
-
-SQL 중급 (윈도우 함수 등)
-
-📌 3월 — Spark & Distributed Processing
-
-Spark 구조 이해
-
-Transformation / Action 실습
-
-PySpark 데이터 처리
-
-간단한 배치 처리 프로젝트 진행
-
-📌 4월 — Data Modeling + 실전 프로젝트
-
-스타 스키마, Snowflake 모델링
-
-OLTP vs OLAP
-
-Kimball 메소드 기반 분석 모델링
-
-미니 프로젝트 2개
-
-📌 5월 — 배포 & 실전 포트폴리오
-
-Airflow 기반 배치 파이프라인 완성
-
-Spark + Airflow 통합
-
-Docker 기반 파이프라인 배포
-
-포트폴리오 문서화
-
-티스토리 기술 블로그에 총 10개 이상 포스팅
-
-🧰 Skills Covered
-
-Python (Data Processing)
-
-Docker & Docker Compose
-
-SQL (Window Functions, Optimization)
-
-Airflow DAG 개발
-
-Spark (PySpark)
-
-Data Modeling
-
-ETL 파이프라인 설계
-
-Batch Pipeline 구축 경험
-
-🧑‍💻 Mini Projects (예정)
-
-Airflow + Python ETL Pipeline
-
-Spark 기반 데이터 정제 파이프라인
-
-Docker 기반 데이터 처리 환경 구성
-
-데이터 모델링 사례 연구
-
-SQL 분석 시나리오 실습
-
-✍️ Blog Posts (티스토리 연동)
-
-이론 정리
-
-실습 코드 정리
-
-트러블슈팅 기록
-
-프로젝트 회고
-
-⭐ 목표 포트폴리오 결과물
-
-Airflow + Spark + Docker를 이용한 실제 동작하는 데이터 파이프라인
-
-정리된 SQL 분석 문서
-
-GitHub + Tistory 연계된 문서화
-
-5~7개의 실전 프로젝트 기록
-
-🙌 Contribution
-
-이 레포는 나의 개인 학습 기록용이며, PR은 받지 않습니다.
-(혹시라도 미래에 공개 전환 시 정책이 변경될 수 있습니다.)
+---

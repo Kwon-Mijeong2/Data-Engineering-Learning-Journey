@@ -34,9 +34,7 @@
 └── screenshots/
 ```
 
-## [notes/] : 학습 개념 정리, 아키텍처 구조, 문제 해결 과정 기록
-## [exercises / mini-projects/] : 핵심 기술을 짧게 구현하는 실습 코드
-## [troubleshooting/] : 실습 중 발생한 에러기 |
+## [notes/] : 학습 개념기 |
 | airflow | Airflow 설치, 기본 DAG, XCom, Variables, 연습 DAG 포함 |
 | dbt | dbt 프로젝트 전체 구조 및 모델링 파일 |
 | rds_s3_parquet | RDS, S3, Parquet 관련 실습 코드/스크립트 |

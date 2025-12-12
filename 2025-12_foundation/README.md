@@ -34,7 +34,12 @@
 └── screenshots/
 ```
 
-## [notes/] : 학습 개념기 |
+# 📁 폴더 구조 설명
+
+
+| 폴더 | 설명 |
+|------|------|
+| web_crawling | 웹 크롤러 만들기 |
 | airflow | Airflow 설치, 기본 DAG, XCom, Variables, 연습 DAG 포함 |
 | dbt | dbt 프로젝트 전체 구조 및 모델링 파일 |
 | rds_s3_parquet | RDS, S3, Parquet 관련 실습 코드/스크립트 |

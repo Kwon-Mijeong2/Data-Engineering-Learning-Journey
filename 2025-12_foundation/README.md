@@ -3,23 +3,24 @@
 12월 안에 Airflow + dbt + RDS + S3 기반의 실무형 배치 파이프라인을 직접 구축하고 포트폴리오 프로젝트 완성하기.
 ```
 ├── README.md
-├── week1_airflow/
+├── web_crawling/
+├── airflow/
 │ ├── dags/
 │ ├── docker-compose.yml
 │ ├── notes.md
 │ └── exercises/
-├── week2_dbt/
+├── dbt/
 │ ├── dbt_project/
 │ ├── seeds/
 │ ├── models/
 │ ├── tests/
 │ └── notes.md
-├── week3_rds_s3_parquet/
+├── rds_s3_parquet/
 │ ├── s3_scripts/
 │ ├── parquet_examples/
 │ ├── sql/
 │ └── notes.md
-├── week4_batch_pipeline/
+├── batch_pipeline/
 │ ├── airflow_dags/
 │ ├── dbt/
 │ ├── ci/
@@ -28,6 +29,7 @@
 ├── architecture.png
 ├── README.md
 └── screenshots/
+```
 ---
 
 

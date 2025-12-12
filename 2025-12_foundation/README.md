@@ -34,11 +34,11 @@
 └── screenshots/
 ```
 
-[notes/] : 학습 개념 정리, 아키텍처 구조, 문제 해결 과정 기록
-[exercises / mini-projects/] : 핵심 기술을 짧게 구현하는 실습 코드
-[troubleshooting/] : 실습 중 발생한 에러 및 해결 방법 기록
-[docs/] : 기술 문서, 포트폴리오용 설계서, 다이어그램
-[references/] : 참고 자료 (Docs, 블로그, 논문 등)
+## [notes/] : 학습 개념 정리, 아키텍처 구조, 문제 해결 과정 기록
+## [exercises / mini-projects/] : 핵심 기술을 짧게 구현하는 실습 코드
+## [troubleshooting/] : 실습 중 발생한 에러 및 해결 방법 기록
+## [docs/] : 기술 문서, 포트폴리오용 설계서, 다이어그램
+## [references/] : 참고 자료 (Docs, 블로그, 논문 등)
 ---
 
 

@@ -10,7 +10,7 @@ Python, SQL, Docker, Airflow, Spark, ETL, 데이터 모델링 등
 
 | 기간 | 학습 내용 |
 |------|-----------|
-| 2025.12 | Data Engineering 기본기, Python 기초, SQL, Bash, Git, Docker |
+| 2025.12 | Data Engineering 기본기, Python 기초, SQL, Docker |
 | 2026.01 | Airflow 핵심 이해, DAG, Operator, Scheduler, Hooks, Sensors |
 | 2026.02 | Python 기반 데이터 파이프라인(모듈 구조, Logging, Testing, Exception, ETL 패턴) |
 | 2026.03 | Lakehouse & Warehouse(Iceberg, Delta, Redshift, BigQuery, Great Expectations) |
